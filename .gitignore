@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+
+# Tool caches and state
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.omo/
+.codegraph/
+
+# Local environment
+.env
+
+# Run outputs and local API dumps
+copy-report*.json
+tdei-api-gateway-prod.json
